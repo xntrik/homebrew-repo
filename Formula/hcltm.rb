@@ -18,7 +18,6 @@ class Hcltm < Formula
   def install
     system "go", "build", "-o", "bin/hcltm", "./cmd/hcltm"
     bin.install "bin/hcltm"
-    system "hcltm", "-autocomplete-install"
   end
 
   test do
