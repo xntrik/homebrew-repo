@@ -1,8 +1,8 @@
 class Hcltm < Formula
   desc "Documenting your Threat Models with HCL"
   homepage "https://github.com/xntrik/hcltm"
-  url "https://github.com/xntrik/hcltm/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "3ad7f449741513c6a1596cb6b8002a84185fb1f0866d2c73d6891e63395c7897"
+  url "https://github.com/xntrik/hcltm/archive/refs/tags/v0.1.2.zip"
+  sha256 "2ebe0cb61b841f79e97808a11c2a6a1ea67174c88e3d2f66964b9f17b66bf04d"
   license "MIT"
   head "https://github.com/xntrik/hcltm.git", branch: "main"
 
