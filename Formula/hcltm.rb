@@ -7,9 +7,9 @@ class Hcltm < Formula
   head "https://github.com/xntrik/hcltm.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/xntrik/homebrew-repo/releases/download/hcltm-0.1.3"
-    sha256 cellar: :any_skip_relocation, big_sur:      "824144c7a67bd4eeeecd8e76f6696f45ab81feffd3ab16a49d35e68da7e3eeec"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "5f802270e518d5f201dae2776f151ccabdf26158b2f31c0235c11d6911064c90"
+    root_url "https://github.com/xntrik/homebrew-repo/releases/download/hcltm-0.1.4"
+    sha256 cellar: :any_skip_relocation, big_sur:      "4a08499bf5fe6c086c00ff557f2adbd53430027c07c43f64ad4a07d906287bc0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "54170891b5830083699e892e6c578f937181e0b76232f0f33f435df4ec82c5b6"
   end
 
   depends_on "go" => :build
