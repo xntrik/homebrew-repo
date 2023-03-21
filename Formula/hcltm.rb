@@ -12,7 +12,7 @@ class Hcltm < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "4c33b937957e20092f8eee6b58ccc94b1281bb55ea7b0261fd15cb5abbe595e8"
   end
 
-  depends_on :go => :build
+  depends_on "go" => :build
 
   def install
     system "go", "build", "-o", "bin/hcltm", "./cmd/hcltm"
