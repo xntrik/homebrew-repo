@@ -1,8 +1,8 @@
 class Hcltm < Formula
   desc "Documenting your Threat Models with HCL"
   homepage "https://github.com/xntrik/hcltm"
-  url "https://github.com/xntrik/hcltm/archive/refs/tags/v0.1.5.tar.gz"
-  sha256 "781c843a089bd81272ecca8eba20a154f4009c07891560226f86608a0aaa1b6f"
+  url "https://github.com/xntrik/hcltm/archive/refs/tags/v0.1.6.tar.gz"
+  sha256 "f4f1ddb8f514678e17728cab553205b320ecca17eaa3e4693222f6788331e9ff"
   license "MIT"
   head "https://github.com/xntrik/hcltm.git", branch: "main"
 
@@ -12,7 +12,7 @@ class Hcltm < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "4c33b937957e20092f8eee6b58ccc94b1281bb55ea7b0261fd15cb5abbe595e8"
   end
 
-  depends_on "go" => :build
+  depends_on "go"
 
   def install
     system "go", "build", "-o", "bin/hcltm", "./cmd/hcltm"
